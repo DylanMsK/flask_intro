@@ -1,0 +1,8 @@
+{% extends 'base.html'%}
+{% block body_block%}
+<h1>롤 전적검색</h1>
+<form action='/opgg/summoner'>
+    <input type="text" name="summoner" placeholder='player 이름을 입력하세요'/>
+    <input type="submit" value="Search"/>
+</form>
+{% endblock %}
